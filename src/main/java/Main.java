@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Main
 {
     public static void main(String[] args) {
+        System.out.println("Start");
         Scanner scanner = new Scanner(System.in);
         Map<String, Double> currencyMap = CurrencyParser.parse();
         Calculator calculator = new Calculator(currencyMap);
